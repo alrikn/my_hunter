@@ -23,3 +23,4 @@ run the following command in the terminal to compile the program -> make
 
 run the following command in the terminal to play -> ./my_hunter
 
+![Example Image](example.png)

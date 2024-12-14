@@ -26,7 +26,7 @@ int pause_handler(core_t *fm, sfEvent *event)
 
 static int lose_condition(core_t *fm)
 {
-    my_cooler_putstr("you suck :(\n");
+    my_cooler_putstr("better luck next time!\n");
     if (fm->score.score_num > fm->score.high_score) {
         fm->score.high_score = fm->score.score_num;
     }
